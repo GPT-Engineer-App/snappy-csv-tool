@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Update the background color and text color to match the provided image */
+body {
+  @apply bg-[#E0D7FF] text-black;
+}
+
+/* Update table header background color */
+table thead th {
+  @apply bg-[#E0D7FF];
+}
+
+/* Update table row background color */
+table tbody tr:nth-child(even) {
+  @apply bg-[#DFFFE0];
+}
+
+/* Update button styles */
+button {
+  @apply bg-[#DFFFE0] text-black;
+}
+
+button:hover {
+  @apply bg-[#CFFFC0];
+}
+
+/* Update input styles */
+input {
+  @apply bg-white text-black border-[#DFFFE0];
+}
+
+input:focus {
+  @apply border-[#CFFFC0];
+}
